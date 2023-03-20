@@ -139,25 +139,29 @@
 \section*{Question 1} \label{question_1}
 \textit{(\num{20} pts) Provide a concise account of composite materials: what they are in general and what type of composites are commonly used in aerostructures.}
 
+In general, \textit{composite materials} or composites are materials composed of at least two different materials. These materials are useful because they gain the material characteristics of all the constituent materials. In aerospace engineering and aerostructures, we deal with one type of composite material in particular: fiber-reinforced composites.
 
+Fiber-reinforced composites consist of two materials, a primary material known as the \textit{matrix} or the \textit{bonder} and a secondary material called the \textit{fiber}. The fibers are woven into the matrix in uniform patterns to create a very small layer known as a \textit{ply}. These plies are stacked on top of one another to create a composite material. Many factors can change the material properties of the composite, \eg how thick is a ply, how are the plies oriented, is the material symmetrical, which direction is the load being applied?
 
 \section*{Question 2} \label{question_2}
 \textit{(\num{3} pts) What does the subscript `s' mean in the laminate code $[0,(45,-45)_2]_s$? (\num{5} pts) How many plies in total this code indicates?}
 
+The subscript `s' signifies the material is symmetrical. Whatever ply pattern is described within the $[]$ brackets is mirrored across the mid-plane.
 
+The written-out form of $[0,(45,-45)_2]_s$ is \text{0/45/-45/45/-45/-45/45/-45/45/0}. When written-out, it is clear that are \num{10} plies total. The number of plies in a symmetrical composite will always be even.
 
 \section*{Question 3} \label{question_3}
 \textit{(\num{3} pts) For the fiber-reinforced composite focused in this lab, what type of material property they possess? (\num{4} pts) How many independent elastic constants are required to describe this material property?}
 
-
+Fiber-reinforced composites are transversely isotropic, meaning the material properties are symmetric in two of the three directions. To describe a fiber-reinforced composite, you need four independent elastic constants, \ie the longitudinal modulus, $E_1$, the transverse modulus, $E_2$, the principal Poisson's ratio, $\nu_{12}$ or $\nu_{21}$, and the shear modulus, $G_{12}$.
 
 \section*{Question 4} \label{question_4}
 \textit{(\num{5} pts) In the theory learned in lecture notes, what kind of loads are considered/susceptible?}
 
-
+In the theory, there are three types of loads considered. The resultant normal forces, $N_x$ and $N_y$; the resultant shear forces, $N_{yx}$ and $N_{xy}$; and the resultant bending moments $M_{yx}$ and $M_{xy}$.
 
 \section*{Question 5} \label{question_5}
 \textit{(\num{10} pts) What are the objectives of this lab? (\num{5} pts) What is the single strain component of particular interest? (\num{15} pts) What steps are involved in the design process?}
 
-
+The objectives of this lab are to get an introduction to laminate design, determine what elements of composite design contribute most to the material properties, and to use the theory in the lecture notes in combination with the online calculator to maximize the twist curvature, $\kappa_{xy}$.
 \end{document}
